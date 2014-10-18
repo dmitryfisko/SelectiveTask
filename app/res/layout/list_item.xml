@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="102dp"
+    android:minHeight="102dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventDate"
+        android:textSize="@dimen/event_date_time_textSize"
+        android:id="@+id/eventDate"
+        android:singleLine="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventTime"
+        android:textSize="@dimen/event_date_time_textSize"
+        android:id="@+id/eventTime"
+        android:singleLine="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventName"
+        android:textSize="@dimen/event_name_textSize"
+        android:id="@+id/eventName"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventCountryCity"
+        android:textSize="@dimen/event_countryCity_textSize"
+        android:id="@+id/eventCountryCity"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="65dp"/>
+
+
+</FrameLayout>
