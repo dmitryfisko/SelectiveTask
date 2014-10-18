@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity {
 
         list = (ListView) findViewById(R.id.listView);
 
-        new ArtistDataDownloadTask().execute("http://api.bandsintown.com/artists/FooFighters/ " +
+        new ArtistDataDownloadTask().execute("http://api.bandsintown.com/artists/FooFighters/" +
                 "events.json?api_version=2.0&app_id=SelectiveTask");
     }
 
